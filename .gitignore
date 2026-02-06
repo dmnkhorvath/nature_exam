@@ -1,0 +1,39 @@
+# JSON files in root
+/*.json
+!package.json
+
+# Manifest files in subfolders
+**/manifest.json
+
+# Extracted question images
+extracted_questions/**/*.png
+extracted_questions/**/*.jpg
+extracted_questions/**/*.jpeg
+
+# Test subset
+test_subset/
+
+# Data (PDFs, extracted images, parsed JSON)
+data/
+
+# Build output
+dist/
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# frontend
+node_modules

@@ -1,0 +1,14 @@
+node_modules
+dist
+.git
+.gitignore
+*.log
+*.json
+!package.json
+!public/*.json
+*.py
+extracted_questions
+scrape
+.claude
+data
+scripts
