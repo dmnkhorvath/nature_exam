@@ -1,0 +1,437 @@
+{
+  "category_name": "Latin",
+  "groups": [
+    [
+      {
+        "file": "TGYM_II_20250210_13h_q021_4pt.png",
+        "success": true,
+        "data": {
+          "question_number": "20.",
+          "points": 4,
+          "question_text": "Párosítsa a fizikális vizsgálat részeit a latin elnevezéseikkel! Írja a\nbetűjelek mellé a helyes válaszok sorszámát!\n\nA. megtekintés\nB. tapintás\nC. kopogtatás\nD. szaglás",
+          "question_type": "matching",
+          "correct_answer": "Α.-...3....,\nΒ.-...1....,\nC.-...4....,\nD.-...2....",
+          "options": []
+        },
+        "source_folder": "TGYM_II_20250210_13h",
+        "similarity_group_id": null
+      }
+    ],
+    [
+      {
+        "file": "TGYM_VII_20240613_q008_4pt.png",
+        "success": true,
+        "data": {
+          "question_number": "8.",
+          "points": 4,
+          "question_text": "Párosítsa a fizikális vizsgálat részeit a latin elnevezéseikkel! Írja a betűjel\nmellé a helyes válasz sorszámát!\nA. megtekintés\nB. tapintás\nC. kopogtatás\nD. szaglás\n1. palpatio\n2. olfactio\n3. inspectio\n4. percussio",
+          "question_type": "matching",
+          "correct_answer": "Α.-...3....,\nΒ.-...1....,\nC.-...4....,\nD.-...2....",
+          "options": []
+        },
+        "source_folder": "TGYM_VII_20240613",
+        "similarity_group_id": "sim_group_348"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2006_november_08_I_q011_3pt.png",
+        "success": true,
+        "data": {
+          "question_number": "11.*",
+          "points": 3,
+          "question_text": "Írja le a gyógynövény hatóanyagagok kivonási\nmódját latinul vagy magyarul!",
+          "question_type": "open",
+          "correct_answer": "infuzum (forrázat)\ndekoktum (főzet)\nmacerátum (áztatás)\nperkoláció (kioldás)\npréselés (lenyerés)\nlepárlás",
+          "options": []
+        },
+        "source_folder": "TGY_2006_november_08_I",
+        "similarity_group_id": null
+      }
+    ],
+    [
+      {
+        "file": "TGY_2007_marcius_21_q013_3pt.png",
+        "success": true,
+        "data": {
+          "question_number": "13.",
+          "points": 3,
+          "question_text": "Írja le a gyógynövények hatóanyagainak kivonási\nmódjait magyarul vagy latinul!",
+          "question_type": "open",
+          "correct_answer": "infúzió (forrázat)\ndekoktum (főzet)\nmacerátum (áztatás)\nperkoláció (kioldás)\npreselés (lényerés)\nlepárlás",
+          "options": []
+        },
+        "source_folder": "TGY_2007_marcius_21",
+        "similarity_group_id": "sim_group_628"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2009_december_04_I_9BB2826E-42AA-8ABD-1C21-6A31D0D36D9B_q006_3pt.png",
+        "success": true,
+        "data": {
+          "question_number": "6.",
+          "points": 3,
+          "question_text": "Írja le a gyógynövények hatóanyagainak kivonási módjait magyarul vagy latinul!",
+          "question_type": "open",
+          "correct_answer": "- infúzió (forrázat)\n- dekoktum (főzet)\n- macerátum (áztatás)\n- perkoláció (kioldás)\n- préselés (lényerés)\n- lepárlás (desztillálás",
+          "options": []
+        },
+        "source_folder": "TGY_2009_december_04_I_9BB2826E-42AA-8ABD-1C21-6A31D0D36D9B",
+        "similarity_group_id": "sim_group_628"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2010_junius_04_II_C65981D3-246F-AA61-9BB0-17CD7F5432A2_q008_3pt.png",
+        "success": true,
+        "data": {
+          "question_number": "8.",
+          "points": 3,
+          "question_text": "Írja le a gyógynövények hatóanyagainak kivonási módjait magyarul vagy latinul!",
+          "question_type": "open",
+          "correct_answer": "infúzió (forrázat)\ndekoktum (főzet)\nmacerátum (áztatás)\nperkoláció (kioldás)\npreselés (lényerés)\ndesztillálás (lepárlás)",
+          "options": []
+        },
+        "source_folder": "TGY_2010_junius_04_II_C65981D3-246F-AA61-9BB0-17CD7F5432A2",
+        "similarity_group_id": "sim_group_823"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2010_november_26_II_2A64FB6F-5A8B-EDFB-5C9E-377B11F11C6A_q008_3pt.png",
+        "success": true,
+        "data": {
+          "question_number": "8.",
+          "points": 3,
+          "question_text": "Írja le a gyógynövények hatóanyagainak kivonási módjait magyarul vagy latinul!",
+          "question_type": "open",
+          "correct_answer": "forrázat (infúzió)\nfőzet (dekoktum)\náztatás (macerátum)\nkioldás (perkoláció)\nlényerés (préselés)\nlepárlás (desztillálás)",
+          "options": []
+        },
+        "source_folder": "TGY_2010_november_26_II_2A64FB6F-5A8B-EDFB-5C9E-377B11F11C6A",
+        "similarity_group_id": "sim_group_823"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2011_februar_25_I_C61E308C-BD6C-5EBC-A5BA-605A6E823F94_q009_3pt.png",
+        "success": true,
+        "data": {
+          "question_number": "9.",
+          "points": 3,
+          "question_text": "Írja le a gyógynövények hatóanyagainak kivonási\nmódjait magyarul vagy latinul!",
+          "question_type": "open",
+          "correct_answer": "forrázat (infúzió)\nfőzet (dekoktum)\náztatás (macerátum)\nkioldás (perkoláció)\nlényerés (préselés)\nlepárlás (desztillálás)",
+          "options": []
+        },
+        "source_folder": "TGY_2011_februar_25_I_C61E308C-BD6C-5EBC-A5BA-605A6E823F94",
+        "similarity_group_id": "sim_group_823"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2012_februar_24_I_CC018D32-D2C8-4868-3984-CEFAEBACCF9D_q007_3pt.png",
+        "success": true,
+        "data": {
+          "question_number": "7.*",
+          "points": 3,
+          "question_text": "Írja le a gyógynövények hatóanyagainak kivonási\nmódjait magyarul vagy latinul!",
+          "question_type": "open",
+          "correct_answer": "- forrázat (infúzió)\n- főzet (dekoktum)\n- áztatás (macerátum)\n- kioldás (perkoláció)\n- lényerés (préselés)\n- lepárlás (desztillálás)",
+          "options": []
+        },
+        "source_folder": "TGY_2012_februar_24_I_CC018D32-D2C8-4868-3984-CEFAEBACCF9D",
+        "similarity_group_id": "sim_group_823"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2014_februar_28_I_TgymI_0228_q008_6pt.png",
+        "success": true,
+        "data": {
+          "question_number": "8.",
+          "points": 6,
+          "question_text": "Írja le a gyógynövények hatóanyagainak kivonási módjait magyarul vagy latinul!",
+          "question_type": "open",
+          "correct_answer": "forrázat-infúzió\nfőzet-dekoktum\náztatás-macerátum\nkioldás-perkoláció\nlényerés-préselés\nlepárlás-desztillálás",
+          "options": []
+        },
+        "source_folder": "TGY_2014_februar_28_I_TgymI_0228",
+        "similarity_group_id": "sim_group_628"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2015_januar_29_tgy_0129_q009_5pt.png",
+        "success": true,
+        "data": {
+          "question_number": "9.*",
+          "points": 5,
+          "question_text": "Írja le a gyógynövények hatóanyagainak kivonási\nmódjait magyarul vagy latinul!",
+          "question_type": "open",
+          "correct_answer": "forrázat - infúzió\nfőzet - decoctum\náztatás - maceráció\nkioldás - perkoláció\nlepárlás - desztillálás",
+          "options": []
+        },
+        "source_folder": "TGY_2015_januar_29_tgy_0129",
+        "similarity_group_id": "sim_group_628"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2015_szeptember_17_II_TGYMII_0917_q011_5pt.png",
+        "success": true,
+        "data": {
+          "question_number": "11.*",
+          "points": 5,
+          "question_text": "Írja le a gyógynövények hatóanyagainak kivonási\nmódjait magyarul vagy latinul!",
+          "question_type": "open",
+          "correct_answer": "1. forrázat - infuzum\n2. főzet - decoctum\n3. áztatás - maceráció\n4. kioldás - perkoláció\n5. lepárlás - desztillálás",
+          "options": []
+        },
+        "source_folder": "TGY_2015_szeptember_17_II_TGYMII_0917",
+        "similarity_group_id": "sim_group_823"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2016_februar_24_I_TGYMI_0224_q007_5pt.png",
+        "success": true,
+        "data": {
+          "question_number": "7.*",
+          "points": 5,
+          "question_text": "Írja le a gyógynövények hatóanyagainak kivonási\nmódjait magyarul vagy latinul!",
+          "question_type": "open",
+          "correct_answer": "forrázat - infuzum\nfőzet - decoctum\náztatás - maceráció\nkioldás - perkoláció\nlepárlás - desztillálás",
+          "options": []
+        },
+        "source_folder": "TGY_2016_februar_24_I_TGYMI_0224",
+        "similarity_group_id": "sim_group_823"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2016_november_16_I_TGYMI_1116_q019_4pt.png",
+        "success": true,
+        "data": {
+          "question_number": "19.",
+          "points": 4,
+          "question_text": "Párosítsa a fizikális vizsgálat részeit a nekik megfelelő\nlatin elnevezésekkel! Írja a betűjel mellé a helyes válasz\nsorszámát!\n\nA. megtekintés\nB. tapintás\nC. kopogtatás\nD. szaglás\n\n1. palpatio\n2. olfactio\n3. inspectio\n4. percussio\n\nΑ.- ......,\nΒ.- ......,\nC.- ......,\nD.- ......",
+          "question_type": "matching",
+          "correct_answer": "3\n1\n4\n2",
+          "options": []
+        },
+        "source_folder": "TGY_2016_november_16_I_TGYMI_1116",
+        "similarity_group_id": "sim_group_1224"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2017_julius_12_I_TGYMI_0712_q020_6pt.png",
+        "success": true,
+        "data": {
+          "question_number": "20.",
+          "points": 6,
+          "question_text": "Párosítsa a latin kifejezéseket magyar megfelelőjükkel!\nÍrja a sorszámokat a megfelelő helyre!\n\n1. zsírmáj\n2. magas vérnyomás\n3. felnőttkori cukorbetegség\n4. az oxigénhiány miatt fokozott vérfehérje- és vörösvértest-termelődés\n5. érfali degeneráció\n6. elhízás\n\nadipositas: ......\ndiabetes mellitus II.: ......\nhypertonia: ......\nhyalinosis: ......\npolyglobulia: ......\nsteatosis hepatis: .......",
+          "question_type": "matching",
+          "correct_answer": "6\n3\n2\n5\n4\n1",
+          "options": []
+        },
+        "source_folder": "TGY_2017_julius_12_I_TGYMI_0712",
+        "similarity_group_id": "sim_group_1297"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2017_majus_24_I_TGYMI_0524_q018_4pt.png",
+        "success": true,
+        "data": {
+          "question_number": "18.",
+          "points": 4,
+          "question_text": "Párosítsa a fizikális vizsgálat részeit a nekik megfelelő\nlatin elnevezésekkel! Írja a betűjel mellé a helyes válasz\nsorszámát!\n\nA. megtekintés\nB. tapintás\nC. kopogtatás\nD. szaglás\n\n1. palpatio\n2. olfactio\n3. inspectio\n4. percussio\n\nA.-...____....,\nB.- ...____....,\nC.- ...____....,\nD.-...____....\n\n(Helyes válaszonként 1-1 pont adható!)",
+          "question_type": "matching",
+          "correct_answer": "3\n1\n4\n2",
+          "options": []
+        },
+        "source_folder": "TGY_2017_majus_24_I_TGYMI_0524",
+        "similarity_group_id": "sim_group_1224"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2018_aprilis_04_II_tgymii_180404_q017_4pt.png",
+        "success": true,
+        "data": {
+          "question_number": "17.",
+          "points": 4,
+          "question_text": "Párosítsa a fizikális vizsgálat részeit a nekik megfelelő\nlatin elnevezésekkel! Írja a betűjel mellé a helyes válasz\nsorszámát!\n\nA. megtekintés\nB. tapintás\nC. kopogtatás\nD. szaglás\n\n1. palpatio\n2. olfactio\n3. inspectio\n4. percussio",
+          "question_type": "matching",
+          "correct_answer": "Α.-...3...., Β.- ...1...., C.- ...4...., D.- ...2....",
+          "options": []
+        },
+        "source_folder": "TGY_2018_aprilis_04_II_tgymii_180404",
+        "similarity_group_id": "sim_group_348"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2018_junius_06_I_tgymi_180606_q025_6pt.png",
+        "success": true,
+        "data": {
+          "question_number": "25.",
+          "points": 6,
+          "question_text": "Párosítsa a latin kifejezéseket magyar megfelelőjükkel!\nÍrja a sorszámokat a megfelelő helyre!\n\n1. zsírmáj\n2. magas vérnyomás\n3. felnőttkori cukorbetegség\n4. az oxigénhiány miatt fokozott vérfehérje- és vörösvértest-termelődés\n5. érfali degeneráció\n6. elhízás\n\nadipositas: ... ....\ndiabetes mellitus II.: ... ....\nhypertonia: ... ....\nhyalinosis: ... ....\npolyglobulia: ... ....\nsteatosis hepatis: ... ....",
+          "question_type": "matching",
+          "correct_answer": "6\n3\n2\n5\n4\n1",
+          "options": []
+        },
+        "source_folder": "TGY_2018_junius_06_I_tgymi_180606",
+        "similarity_group_id": "sim_group_1297"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2018_november_14_III_tgym-meg_iii_20181114_q019_4pt.png",
+        "success": true,
+        "data": {
+          "question_number": "19.",
+          "points": 4,
+          "question_text": "Nevezze meg latinul a menstruáció alatt lehetséges\npanaszokat, rendellenességeket!\n\ntúlzott mennyiségű vérzés -\nfájdalmas vérzés -\nkevés vérzés -\nhavi vérzés elmaradása -",
+          "question_type": "fill_in",
+          "correct_answer": "hypermenorrhoea\ndysmenorrhoea\nhypomenorrhoea\namenorrhoea",
+          "options": []
+        },
+        "source_folder": "TGY_2018_november_14_III_tgym-meg_iii_20181114",
+        "similarity_group_id": "sim_group_1483"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2019_november_13_I_tgymi_191113_q021_6pt.png",
+        "success": true,
+        "data": {
+          "question_number": "21.",
+          "points": 6,
+          "question_text": "Csoportosítsa a latin kifejezésekhez magyar megfelelőjüket! Írja a\nsorszámokat a megfelelő helyre!\n\n1. zsírmáj\n2. magas vérnyomás\n3. felnőttkori cukorbetegség\n4. az oxigénhiány miatt fokozott vérfehérje- és vörösvértest-termelődés\n5. érfali degeneráció\n6. elhízás\n\nadipositas: ... ....\ndiabetes mellitus II.: ... ....\nhypertonia: ... ....\nhyalinos: ... ....\npolyglobulia: ... ....\nsteatosis hepatis: ... ....\n\n(Helyes válaszonként 1-1 pont adható! Egyéb megoldások esetén pontszám nem adható!)",
+          "question_type": "matching",
+          "correct_answer": "6\n3\n2\n5\n4\n1",
+          "options": []
+        },
+        "source_folder": "TGY_2019_november_13_I_tgymi_191113",
+        "similarity_group_id": "sim_group_1297"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2019_szeptember_11_II_tgymii_190911_q018_4pt.png",
+        "success": true,
+        "data": {
+          "question_number": "18.",
+          "points": 4,
+          "question_text": "Párosítsa a fizikális vizsgálat részeit a latin elnevezéseikkel! Írja a betűjel\nmellé a helyes válasz sorszámát!\nA. megtekintés\nB. tapintás\nC. kopogtatás\nD. szaglás\n1. palpatio\n2. olfactio\n3. inspectio\n4. percussio",
+          "question_type": "matching",
+          "correct_answer": "Α.-...3....,\nΒ.- ...1....,\nC.- ...4....,\nD.- ...2....",
+          "options": []
+        },
+        "source_folder": "TGY_2019_szeptember_11_II_tgymii_190911",
+        "similarity_group_id": "sim_group_348"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2020_julius_23_VII_tgymvii_200723_q020_4pt.png",
+        "success": true,
+        "data": {
+          "question_number": "19.",
+          "points": 4,
+          "question_text": "Párosítsa a fizikális vizsgálat részeit a latin elnevezéseikkel! Írja a betűjel\nmellé a helyes válasz sorszámát!\n\nA. megtekintés\nB. tapintás\nC. kopogtatás\nD. szaglás\n\n1. palpatio\n2. olfactio\n3. inspectio\n4. percussio\n\nΑ.-...____....,\nΒ.- ...____...., C.- ...____....,\nD.- ...____....\n\n(Helyes válaszonként 1-1 pont adható!)",
+          "question_type": "matching",
+          "correct_answer": "Α.-...3....,\nΒ.- ...1...., C.- ...4....,\nD.- ...2....",
+          "options": []
+        },
+        "source_folder": "TGY_2020_julius_23_VII_tgymvii_200723",
+        "similarity_group_id": "sim_group_1224"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2021_junius_07_V_tgymv_210607_q022_4pt.png",
+        "success": true,
+        "data": {
+          "question_number": "22.",
+          "points": 4,
+          "question_text": "Párosítsa a fizikális vizsgálat részeit a latin elnevezéseikkel! Írja a betűjel\nmellé a helyes válasz sorszámát!\nA. megtekintés\nB. tapintás\nC. kopogtatás\nD. szaglás\n1. palpatio\n2. olfactio\n3. inspectio\n4. percussio",
+          "question_type": "matching",
+          "correct_answer": "Α.-...3....,\nΒ.-...1....,\nC.-...4....,\nD.-...2....",
+          "options": []
+        },
+        "source_folder": "TGY_2021_junius_07_V_tgymv_210607",
+        "similarity_group_id": "sim_group_348"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2022_aprilis_14_IV_tgymiv_220414_q025_4pt.png",
+        "success": true,
+        "data": {
+          "question_number": "25.",
+          "points": 4,
+          "question_text": "Nevezze meg latinul a menstruáció alatt lehetséges panaszokat, rendellenességeket!\n- túlzott mennyiségű vérzés -\n- fájdalmas vérzés -\n- kevés vérzés -\n- havi vérzés elmaradása -",
+          "question_type": "fill_in",
+          "correct_answer": "hypermenorrhoea\ndysmenorrhoea\nhypomenorrhoea\namenorrhoea",
+          "options": []
+        },
+        "source_folder": "TGY_2022_aprilis_14_IV_tgymiv_220414",
+        "similarity_group_id": "sim_group_1483"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2022_februar_15_VI_tgymvi_220215_q020_4pt.png",
+        "success": true,
+        "data": {
+          "question_number": "19.",
+          "points": 4,
+          "question_text": "Párosítsa a fizikális vizsgálat részeit a latin elnevezéseikkel! Írja a betűjel\nmellé a helyes válasz sorszámát!\nA. megtekintés\nB. tapintás\nC. kopogtatás\nD. szaglás\n1. palpatio\n2. olfactio\n3. inspectio\n4. percussio",
+          "question_type": "matching",
+          "correct_answer": "Α.-...3....,\nΒ.-...1....,\nC.-...4....,\nD.-...2....",
+          "options": []
+        },
+        "source_folder": "TGY_2022_februar_15_VI_tgymvi_220215",
+        "similarity_group_id": "sim_group_348"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2022_november_10_V_tgymv_1110-221111_q020_4pt.png",
+        "success": true,
+        "data": {
+          "question_number": "19.",
+          "points": 4,
+          "question_text": "Párosítsa a fizikális vizsgálat részeit a latin elnevezéseikkel! Írja a betűjel\nmellé a helyes válasz sorszámát!\n\nA. megtekintés\t1. palpatio\nB. tapintás\t2. olfactio\nC. kopogtatás\t3. inspectio\nD. szaglás\t4. percussio\n\nA.-...____....,\tB.-...____....,\tC.-...____....,\tD.-...____....\n\n(Helyes válaszonként 1-1 pont adható!)",
+          "question_type": "matching",
+          "correct_answer": "3\n1\n4\n2",
+          "options": []
+        },
+        "source_folder": "TGY_2022_november_10_V_tgymv_1110-221111",
+        "similarity_group_id": "sim_group_1224"
+      }
+    ],
+    [
+      {
+        "file": "TGY_2023_februar_09_V_tgymv_0209-230214_q020_4pt.png",
+        "success": true,
+        "data": {
+          "question_number": "20.",
+          "points": 4,
+          "question_text": "Párosítsa a fizikális vizsgálat részeit a latin elnevezéseikkel! Írja a\nbetűjelek mellé a helyes válaszok sorszámát!\n\nA. megtekintés\n1. palpatio\nB. tapintás\n2. olfactio\nC. kopogtatás\n3. inspectio\nD. szaglás\n4. percussio",
+          "question_type": "matching",
+          "correct_answer": "A.-...3....,\nB.-...1....,\nC.-...4....,\nD.-...2....",
+          "options": []
+        },
+        "source_folder": "TGY_2023_februar_09_V_tgymv_0209-230214",
+        "similarity_group_id": "sim_group_348"
+      }
+    ]
+  ]
+}
