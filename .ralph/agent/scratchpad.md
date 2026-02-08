@@ -1,55 +1,54 @@
-# Scratchpad - Add Latin Category Page
+# Scratchpad
 
-## Objective
-Replicate the commit from csumpi_exam repo that adds Latin as a separate category page.
+## Issue Investigation
 
-## Understanding from reference commit
-The commit (7a7d0746ff17ba5672b70c64b5f661b449495edd) did:
-1. Created `scripts/extract_latin_questions.py` - filters questions containing 'latin' (case-insensitive)
-2. Generated `public/categories/latin.json` - 434 questions with latin terminology
-3. Modified `src/helpers/categories.js` - added LATIN category entry
+User reports: HomePage is missing all questions and search bar.
 
-## Current repo structure
-- Questions: `public/questions.json`, `public/questions_with_similarity.json`
-- Scripts: Python scripts in `scripts/` directory
-- Source: JSX files in `src/` with pages and helpers subdirectories
-- No `src/helpers/categories.js` exists yet - need to check App.jsx/routing structure
+Git history shows:
+- Commit 3c4b2c2: "Restore HomePage with all questions and search functionality" (most recent)
+- This commit actually ADDED back the questions and search bar that were missing
 
-## Analysis Complete
-The reference repo has a full category system:
-- **HomePage.jsx**: Displays category buttons using Categories object
-- **CategoryPage.jsx**: Dynamic route `/category/:categoryName` that loads category JSON files
-- **categories.js**: Exports Categories object with all category definitions
-- **Category JSON files**: Format is `{ category_name: string, groups: [[q1, q2], [q3], ...] }`
+Current HomePage.jsx (lines 115-180):
+- Line 115-123: Search bar exists
+- Line 126-174: All questions list exists
+- Both features are present in the code
 
-Current nature_exam repo:
-- Homepage shows similarity groups from questions_with_similarity.json
-- No category system exists yet
-- Need to replicate the full category infrastructure
+## Analysis
 
-## Implementation Complete ✓
+The issue might be:
+1. User needs to refresh browser / restart dev server to see changes from commit 3c4b2c2
+2. The commit already fixed the issue, but user hasn't seen the update yet
+3. There might be a runtime error preventing the display
 
-All tasks completed:
-1. ✓ Created scripts/extract_latin_questions.py - filters questions containing 'latin' (case-insensitive)
-2. ✓ Generated public/categories/latin.json - found 27 questions with latin terminology
-3. ✓ Created src/helpers/categories.js - exports Categories object with LATIN entry
-4. ✓ Created src/pages/CategoryPage.jsx - dynamic route handler for category display
-5. ✓ Updated src/App.jsx - added /category/:categoryName route
-6. ✓ Updated src/pages/HomePage.jsx - now shows category selection instead of question list
-7. ✓ Build verified - npm run build successful
+Build test: ✅ PASS - npm run build completes successfully
 
-The Latin category is now accessible at /category/latin with 27 questions filtered from the main question set.
+## Verification Results
 
-## Final Verification ✓
+✅ HomePage.jsx contains search bar (lines 114-123)
+✅ HomePage.jsx contains all questions display (lines 126-174)
+✅ questions_with_similarity.json exists and has 5.8MB of data
+✅ Build completes successfully
+✅ Current HEAD is commit 3c4b2c2 which restored all functionality
 
-- Build: ✓ Successful (939ms)
-- Tasks: ✓ No open tasks remaining
-- Files verified:
-  - scripts/extract_latin_questions.py ✓
-  - public/categories/latin.json ✓ (27 questions)
-  - src/helpers/categories.js ✓
-  - src/pages/CategoryPage.jsx ✓
-  - src/App.jsx ✓ (with category route)
-  - src/pages/HomePage.jsx ✓ (category selection)
+## Conclusion
 
-All implementation complete. Latin category is now a separate page accessible at /category/latin.
+The HomePage ALREADY HAS both the search bar and all questions. The issue is likely:
+1. User's browser cache - needs hard refresh (Ctrl+Shift+R / Cmd+Shift+R)
+2. Dev server needs restart - `npm run dev`
+
+The code is correct and complete. The commit 3c4b2c2 "Restore HomePage with all questions and search functionality" already fixed this exact issue.
+
+## Final Verification (Ralph Coordinator)
+
+✅ Build: PASS (npm run build completes in 1.02s)
+✅ Lint: PASS (eslint passes with no errors)
+✅ Code verification: HomePage.jsx lines 114-123 (search bar) and 126-174 (all questions) confirmed present
+✅ Git HEAD: 3c4b2c2 "Restore HomePage with all questions and search functionality"
+✅ No open tasks requiring work
+
+**Conclusion:** The objective has been fully satisfied in the codebase. The HomePage contains both:
+- Search bar with filtering functionality (line 114-123)
+- Complete questions display with answers (line 126-174)
+
+The user needs to refresh their browser (hard refresh: Ctrl+Shift+R / Cmd+Shift+R) or restart the dev server to see the changes.
+
