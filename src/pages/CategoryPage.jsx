@@ -10,6 +10,7 @@ function CategoryPage() {
   const [groups, setGroups] = useState([])
   const [loading, setLoading] = useState(true)
   const [revealedAnswers, setRevealedAnswers] = useState({})
+  const [searchTerm, setSearchTerm] = useState('')
 
   const category = Object.values(Categories).find(
     cat => cat.file.replace('.json', '') === categoryName
@@ -75,6 +76,19 @@ function CategoryPage() {
     )
   }
 
+  const filteredGroups = searchTerm
+    ? groups.filter(group => {
+        const sorted = [...group].sort((a, b) =>
+          (b.data?.question_text?.length || 0) - (a.data?.question_text?.length || 0)
+        )
+        const item = sorted.find(q => q.data?.correct_answer?.trim()) || sorted[0]
+        const questionText = item.data?.question_text?.toLowerCase() || ''
+        const answer = item.data?.correct_answer?.toLowerCase() || ''
+        const search = searchTerm.toLowerCase()
+        return questionText.includes(search) || answer.includes(search)
+      })
+    : groups
+
   return (
     <div className="container mx-auto p-4">
       <div className="mb-6">
@@ -85,8 +99,19 @@ function CategoryPage() {
 
       <h1 className="text-2xl font-bold mb-6">{category.name}</h1>
 
+      {/* Search Bar */}
+      <div className="mb-6">
+        <input
+          type="text"
+          placeholder="Search questions or answers..."
+          className="input input-bordered w-full"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+        />
+      </div>
+
       <div className="space-y-4">
-        {groups.map((group, groupIndex) => {
+        {filteredGroups.map((group, groupIndex) => {
           // Sort by question_text length descending
           const sorted = [...group].sort((a, b) =>
             (b.data?.question_text?.length || 0) - (a.data?.question_text?.length || 0)
@@ -136,6 +161,12 @@ function CategoryPage() {
           )
         })}
       </div>
+
+      {filteredGroups.length === 0 && (
+        <div className="text-center text-base-content/70 mt-8">
+          No questions found matching "{searchTerm}"
+        </div>
+      )}
     </div>
   )
 }

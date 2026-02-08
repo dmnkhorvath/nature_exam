@@ -2,6 +2,14 @@
 
 ## Patterns
 
+### mem-1770551492-6e39
+> Latin page already has search bar: CategoryPage.jsx lines 103-111 provide search input, lines 79-90 filter by question_text and correct_answer. Verified latin.json exists at public/categories/latin.json. Feature is complete.
+<!-- tags: latin, search, categorypage | created: 2026-02-08 -->
+
+### mem-1770551413-064a
+> CategoryPage now has search bar (lines 103-111) with same filtering logic as HomePage: filters by question_text and correct_answer (case-insensitive)
+<!-- tags: react, search, categorypage | created: 2026-02-08 -->
+
 ### mem-1770551167-c6c6
 > HomePage restored: combines category navigation (Categories helper) with original question list + search bar. Search filters by question_text and correct_answer. CategoryPage remains separate for focused category study.
 <!-- tags: react, homepage, search | created: 2026-02-08 -->
